@@ -7,9 +7,13 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(
   cors({
-    origin: '*',
+    origin: 'https://taskgl.netlify.app/',
   }),
 )
+// write a route to serve the frontend build files and also handle API routes
+// app.use(express.static('public'))
+
+// app.use(express.static('dist'))
 app.use('/', (req, res) => {
   res.send('API is running...')
 })
