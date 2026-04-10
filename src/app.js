@@ -10,7 +10,9 @@ app.use(
     origin: '*',
   }),
 )
-
+app.use('/', (req, res) => {
+  res.send('API is running...')
+})
 app.use('/api', taskRoutes)
 
 export default app
