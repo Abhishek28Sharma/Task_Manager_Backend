@@ -2,6 +2,7 @@
 
 <p align="center">
   <b>Robust RESTful API built with Node.js, Express & MongoDB</b>
+  <b>Hosted on Render</b>
 </p>
 
 <p align="center">
@@ -17,7 +18,9 @@
 
 ## 🚀 Live API
 
-🔗 **Base URL:** https://your-backend-link.com/api/tasks
+🔗 **Base URL:** https://taskglobal-k5tl.onrender.com/api/tasks
+
+- **NOTE**: May take few seconds to load
 
 ---
 
@@ -33,7 +36,7 @@
 
 ## 📖 API Reference
 
-**Base URL:** https://your-backend-link.com/api/tasks
+**Base URL:** https://taskglobal-k5tl.onrender.com/api/tasks
 
 ---
 
